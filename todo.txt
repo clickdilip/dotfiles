@@ -1,0 +1,11 @@
+install fish
+set fish as default shell
+brew install curl - had to use bashl
+install oh-my-fish
+omf install bobthefish
+brew install python@3.8
+pip3 install --user git+git://github.com/powerline/powerline
+set -g theme_powerline_fonts no
+powerline font install
+solarized dark theme
+

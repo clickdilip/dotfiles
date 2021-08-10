@@ -5,15 +5,15 @@
 - clean: ['~']
 
 - link:
-    ~/.tmux.conf: tmux.conf
-    ~/.vim: vim
-    ~/.vimrc: vimrc
     ~/.config/karabiner: karabiner
+    ~/.zshrc: zshrc
+    ~/.config/fish: fish
 
 - create:
     - ~/downloads
     - ~/.vim/undo-history
     - ~/.config/karabiner
+    - ~/.config/fish
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
